@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Runner.TestRunner" time="12.648" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Runner.TestRunner" time="7.958" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire5526504292217521175\surefirebooter1003875449483139308.jar C:\Users\admin\AppData\Local\Temp\surefire5526504292217521175 2024-12-29T15-29-38_142-jvmRun1 surefire4869344506803756732tmp surefire_015423275365011056461tmp"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire7384703111855889279\surefirebooter14327794326230670546.jar C:\Users\admin\AppData\Local\Temp\surefire7384703111855889279 2024-12-29T15-49-42_862-jvmRun1 surefire1301196323075933934tmp surefire_011447471805992252773tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\admin\eclipse-workspace\API_Framework\target\test-classes;C:\Users\admin\eclipse-workspace\API_Framework\target\classes;C:\Users\admin\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\admin\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\admin\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\admin\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\admin\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\admin\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\admin\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\admin\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\admin\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\admin\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\admin\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\admin\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire5526504292217521175\surefirebooter1003875449483139308.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire7384703111855889279\surefirebooter14327794326230670546.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.0.1+2-3"/>
@@ -41,10 +41,10 @@
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\admin\.m2\repository"/>
-    <property name="cucumber.options" value="--tags @AddPet"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
     <property name="java.version" value="17.0.0.1"/>
+    <property name="cucumber.filter.tags" value="@Regression"/>
     <property name="user.dir" value="C:\Users\admin\eclipse-workspace\API_Framework"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -58,27 +58,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Add a new pet" classname="Adding a new pet to the store" time="7.628">
+  <testcase name="Add a new pet" classname="Adding a new pet to the store" time="6.173">
     <system-out><![CDATA[Respone code is: 200
 Getting id based on POST respone
 Pet Id is :1000
 ]]></system-out>
-    <system-err><![CDATA[Dec 29, 2024 3:29:41 PM io.cucumber.core.options.CucumberPropertiesParser lambda$warnWhenCucumberOptionsIsUsed$2
-WARNING: Passing commandline options via the property 'cucumber.options' is no longer supported. Please use individual properties instead. See the java doc on io.cucumber.core.options.Constants for details.
-]]></system-err>
   </testcase>
-  <testcase name="Get a pet by Add Pet ID" classname="Adding a new pet to the store" time="1.387">
-    <system-out><![CDATA[Now getting id from post response and adding here as pathParam in GET API
-Respone code is: 200
-]]></system-out>
-  </testcase>
-  <testcase name="Delete a pet by Pet Id" classname="Adding a new pet to the store" time="1.374">
+  <testcase name="Delete a pet by Pet Id" classname="Adding a new pet to the store" time="1.167">
     <system-out><![CDATA[Now getting id from post response and adding here as pathParam in DELETE API
-Respone code is: 200
-]]></system-out>
-  </testcase>
-  <testcase name="Finds Pets by status" classname="Adding a new pet to the store" time="1.645">
-    <system-out><![CDATA[############################## Find pet based on status ################################
 Respone code is: 200
 ]]></system-out>
   </testcase>

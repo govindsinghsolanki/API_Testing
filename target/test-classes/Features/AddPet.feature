@@ -12,7 +12,7 @@ Examples:
   |1000|doggie1 |test@abc  |available |
   
   
-@GetPet	 
+@GetPet	 @Regression
 Scenario: Get a pet by Add Pet ID
 	Given As user find a pet based on "id" of Added Pet
 	When  As user call "getPetAPI" with "GET" http request
@@ -27,7 +27,7 @@ Scenario: Delete a pet by Pet Id
 	And   "message" in response body is "id"
 	And   "type" in response body is "unknown"
   
-@FindByStatus
+@FindByStatus  @Regression
 Scenario Outline: Finds Pets by status
   Given  As user finds a pet based on "<status>"
   When   As user finds pets by "findPetByStatusAPI"
