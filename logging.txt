@@ -1,0 +1,39 @@
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/user/createWithList
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+[
+    {
+        "id": 11,
+        "username": "test1",
+        "firstName": "test2",
+        "lastName": "test3",
+        "email": "test@abc",
+        "password": "string",
+        "phone": "string",
+        "userStatus": "string"
+    }
+]
+HTTP/1.1 500 Server Error
+Date: Sat, 28 Dec 2024 18:03:18 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 500,
+    "type": "unknown",
+    "message": "something bad happened"
+}
