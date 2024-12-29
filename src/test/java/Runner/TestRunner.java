@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
  
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features={"C:\\Users\\admin\\eclipse-workspace\\API_Framework\\src\\test\\java\\Features\\AddPet.feature"},
+		features={"C:\\Users\\admin\\eclipse-workspace\\API_Framework\\src\\test\\java\\Features"},
         glue={"stepDefinations"}
 //        tags="@GetPet"
 //        dryRun=true,
